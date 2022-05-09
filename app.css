@@ -12,11 +12,15 @@ body {
   color: #06113c;
   box-shadow: inset 0px 0px 0px grey;
 }
+
 #shop {
   margin-left: 80%;
   width: 5%;
   margin-top: -15%;
   color: #06113c;
+}
+#shop:hover {
+  color: white;
 }
 .link {
   width: 5%;
@@ -27,8 +31,11 @@ body {
   padding-top: 1%;
   font-size: 30px;
 }
+.heading:hover {
+  color: white;
+}
 .add {
-  border-radius: 50px;
+  border-radius: 10px;
   height: 5vh;
   width: 50%;
   word-spacing: 20%;
@@ -190,7 +197,7 @@ body {
 .mobimg4 {
   height: 25vh;
   margin-top: 5%;
-  margin-left: 6%;
+  margin-left: 12%;
 }
 .card5:hover {
   background-color: rgba(238, 130, 238, 0.393);
@@ -254,4 +261,48 @@ body {
   position: absolute;
   margin-top: 0%;
   margin-left: 1%;
+}
+#disp {
+  margin-top: -2.2%;
+  margin-left: 9.5%;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #06113c;
+}
+
+#pricep {
+  margin-top: -2.2%;
+  margin-left: 6%;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #06113c;
+}
+h3 {
+  font-family: sans-serif;
+  color: #06113c;
+}
+.price {
+  margin-left: 45%;
+  margin-top: 3%;
+  background-color: #e1e2efc1;
+  border-radius: 15px;
+  border: 1px solid grey;
+  text-align: center;
+  width: 10%;
+  cursor: pointer;
+}
+.price:hover {
+  background-color: #040aaa43;
+}
+@media screen and (max-width: 423px) {
+  .cards {
+    display: block;
+  }
+  #shop {
+    /* position: relative; */
+    margin-top: -10%;
+  }
+  .heading {
+    width: 10%;
+  }
 }
